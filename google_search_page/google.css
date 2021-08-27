@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+ 
+}
+.logo {
+  background:   url(https://i.loli.net/2019/11/14/LVkXcBibEjh9s6v.png) center center no-repeat;
+  width: 250px;
+  height:100px;
+  background-size: contain;
+  margin: 150px auto 30px auto;
+}
+.searchbox {
+  max-width: 480px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+.icon-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+  
+}
+.icon-mic {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  color: rgba(0,0,200,0.6)
+}
+.searchbox>input {
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ border-radius: 20px;
+ padding: 0 40px;
+ border: none;
+ background: none;
+ box-shadow: 0 0 1px 2px #ddd;
+ outline: none; /*自己最终调试出来的版本忘了加上这句，输入框点击之后会产生一个outline不知道怎么删除，参考了答案*/
+}
+.searchbox>input:hover {
+  box-shadow: 0 0 1px 3px #eee;
+}
+.hint {
+  width: 200px;
+  margin: 20px auto;
+  font-size: 14px;
+  text-align: center;
+}
+.hint span {
+  color: #666;
+  background: #eee;
+  padding: 5px;
+  
+}
