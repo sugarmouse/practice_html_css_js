@@ -1,0 +1,44 @@
+.blur {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3)
+   
+  }
+  .innerbox {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    background: white;
+  
+  }
+  .innerbox>.icon-closesstyle2 {
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: right;
+  }
+  .title>h1 {
+    padding: 30px;
+    padding-top: 10px;
+    border-bottom: solid #999 2px;
+  }
+  li {
+    margin-left: 30px;
+    padding-bottom: 20px;
+    
+  }
+  .blur:target {
+    display: block;
+  }
+  
