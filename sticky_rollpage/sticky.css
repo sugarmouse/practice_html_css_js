@@ -1,0 +1,18 @@
+.box1 {
+    position: sticky;
+    top: 10px;
+    background-color: black;
+    color: white;
+}
+.box2 {
+    position: sticky;
+    top: 10px;
+    background-color: black;
+    color: white;
+}
+.box3 {
+    position: sticky;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+}
